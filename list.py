@@ -1,7 +1,7 @@
 #data typpes
 """
    lists are used to store multiple items in a single variable
-   """
+   
 list=["apple", "banana", "cherry"]
 print(list)
 #list items re indexed ,the first iteam has index 0
@@ -53,3 +53,32 @@ print(cars)
 # list in idexing and slicing  we  use list method we kept list because list can store more values
 print(list(2,10,1))
 print(list(1,20,4)) # we use tuple or set inplace list 
+
+
+numbers_nani=[10,20,30,40,50]
+print(numbers_nani[-5:-1])
+print(numbers_nani[-5:-1:2])
+print(numbers_nani[::1])
+print(numbers_nani[::2])
+print(numbers_nani[::-1])
+print(numbers_nani[::-2])
+print(numbers_nani[:4:1])
+print(numbers_nani[:5:1])
+
+#nested list
+v=[
+    [0,10,20],
+    [20,30,40],
+    [7,8,9,12]
+]
+print(v)
+print(v[0][1])
+v.append([9,8,912])
+print(v)"""
+
+a=[1,2,3,4,7,8,9,12]
+b=sorted(a)   # sorted is used to created a new list
+print(a)
+print(b)
+
+

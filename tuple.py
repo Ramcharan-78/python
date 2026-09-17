@@ -43,5 +43,21 @@ print(tuple4) # means tuples  prints two times 6ye
 tuple5=tuple2.count("nani")
 print(tuple5)
 
+a=(10,20,30)
+print(a.index(20))
+
+a=20
+b=10
+a,b=b,a
+print(a)
+print(b)
 
 
+# another method
+A=10
+B=20
+A=A+B
+B=A-B
+A=A-B
+print(A)
+print(B)
