@@ -24,3 +24,4 @@ def grade_manager_demo():
         print(f"{name}: Average = {avg:.2f}, Grade = {grade}")
 
 grade_manager_demo()
+

@@ -82,3 +82,17 @@ print(a)
 print(b)
 
 
+num=int(input("entre a number:"))    
+sum=0
+temp=num
+while num>0:
+    x=num%10
+    sum=sum+x
+    num=num//10
+
+print(sum)
+
+if temp%sum ==0:
+    print("harshad number")
+else:
+    print("not a harshad number")

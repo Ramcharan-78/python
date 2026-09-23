@@ -72,7 +72,7 @@ def total(p,q):
 
 x=total(100,5)
 y=x*0.1
-print(x-y)  """
+print(x-y)  
 
 
 def total_marks(m1,m2,m3):
@@ -80,6 +80,31 @@ def total_marks(m1,m2,m3):
 x=total_marks(90,90,90)
 y=x/3
 print(y)
+
+
+# global +local variable
+a=10
+def helf():
+    a=20
+    print(a)
+helf()
+print(a)"""
+
+
+
+n=int(input())
+sum=0
+while n>0:
+    last=n%10
+    sum=(sum*2)+last*2
+    n=n//10
+    last2=sum%10
+    a=last2
+    if a==1:
+        print("true")
+        break
+else:
+    print("false")
      
        
  

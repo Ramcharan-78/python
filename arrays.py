@@ -1,5 +1,4 @@
 
-
 cars=["bmw","mericides", "suziki"]
 cars.append("honda")
 print(cars)
